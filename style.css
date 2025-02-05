@@ -1,0 +1,209 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo-eque {
+    height: 170px;
+    margin-left: 200px;
+}
+
+.bo-en {
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.bo-en:hover {
+    background-color: rgb(2, 204, 2);
+    transition: 0, 5s ease-in-out;
+}
+
+.logo-adv-M {
+    height: 400px;
+    image-rendering: optimizeQuality;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.texto-principal {
+    color: white;
+    font-size: 18px;
+}
+
+.imagen-fundo {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+.tela-fundo {
+    image-rendering: optimizeQuality;
+    width: 100vw;
+}
+
+.mascara-1 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.whats img {
+    height: 50px;
+    right: 20px;
+    position: fixed;
+    bottom: 20px;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header a {
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: brown;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario-consuta {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -316px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: blue;
+}
+
+.botao-form {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.botao-form:hover {
+
+    background-color: lime;
+    transition: 0.5s ease-in-out;
+}
+
+.mascara-2 {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 0.5s ease-in-out;
+}
+
+.tela-fundo2 {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.textotodo {
+    color: white;
+   align-items: center;
+}
+
+.equelibrio2 img {
+   justify-content: space-around;
+}
+
+.texto p { 
+    
+    font-size: 15px;
+}
+
+.mascara-3 {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: linear-gradient (90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 22%, rgba(0,212,255,1) 100%);;
+    top: 0;
+    
+}
+
+.tela-fundo3 {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index:-1;
+}
+
+.mascara4 {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: linear-gradient (90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 22%, rgba(0,212,255,1) 100%);;
+    top: 0;
+    z-index: -1;
+}
+
+.tudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textodu {
+    color: white;
+    font-size: 20px;
+}
+
+.figura {
+    height: 30px;  
+    
+}
